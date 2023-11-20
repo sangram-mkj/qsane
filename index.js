@@ -16,13 +16,18 @@ function getSearch() {
     return location.search
 }
 
+function testFunction(){
+    return 'Hello World'
+}
+
 
 var qsane = {
     getQuery,
     getLocation,
     getPathname,
     getQuery,
-    getSearch
+    getSearch,
+    testFunction
 };
 
 
