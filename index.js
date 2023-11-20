@@ -16,9 +16,13 @@ function getSearch() {
     return location.search
 }
 
-function testFunction(){
-    return 'Hello World'
+
+function getOnly(param){
+    let url = new URL(document.location).searchParams
+    return url.get(param)
 }
+
+
 
 
 var qsane = {
@@ -27,7 +31,7 @@ var qsane = {
     getPathname,
     getQuery,
     getSearch,
-    testFunction
+    getOnly
 };
 
 
