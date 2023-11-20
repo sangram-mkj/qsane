@@ -1,0 +1,19 @@
+{
+  "name": "qsane",
+  "version": "1.0.0",
+  "description": "Get all the query in browser url bar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "qs",
+    "query-selector"
+  ],
+  "author": "Sangram-mkj",
+  "license": "ISC"
+}
